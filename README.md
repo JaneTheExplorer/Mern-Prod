@@ -39,10 +39,7 @@ A minimal MERN stack ready for production deployment, CI/CD, and monitoring.
 - Backend (Render): Connect repo → set env → `npm start` → auto-deploy on push.
 - Frontend (Vercel): Import repo → set env → `npm run build` → auto-deploy on push.
 
-## URLs
-- Frontend: https://your-frontend.vercel.app
-- Backend: https://your-backend.onrender.com
-- Health: https://your-backend.onrender.com/health
+
 
 ## CI/CD
 - `.github/workflows/ci.yml`: runs lint, tests, and build on PR/push.
